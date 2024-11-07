@@ -1,0 +1,6 @@
+[window]
+decorations = "None"
+opacity = 0.5
+dynamic_title = true
+dynamic_padding = true
+decorations_theme_variant = "Dark"

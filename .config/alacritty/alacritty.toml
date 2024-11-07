@@ -1,0 +1,5 @@
+[general]
+import = ["/home/cameron/.config/alacritty/window.toml",
+"/home/cameron/.config/alacritty/font.toml", 
+"/home/cameron/.config/alacritty/themes/themes/hyper.toml",
+]
