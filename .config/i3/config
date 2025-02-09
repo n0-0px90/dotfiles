@@ -49,6 +49,10 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+#lockscreen
+bindsym $mod+Shift+o exec --no-startup-id loginctl lock-session
+bindsym $mod+Shift+v exec --no-startup-id vivaldi-stable
+
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
@@ -204,4 +208,4 @@ bar {
 #Custom binds
 bindsym $mod+Shift+g exec --no-startup-id steam
 bindsym $mod+Shift+w exec --no-startup-id brave
-bindsym $mod+Shift+a exec --no-startup-id volumeicon
+bindsym $mod+Shift+a exec --no-startup-id discord

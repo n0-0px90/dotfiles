@@ -22,16 +22,16 @@ opacity-rule = [
 blur-background = true;
 blur: {
     method = "dual_kawase";
-    strength = 3;
+    strength = 2;
 };
 # General settings
 backend = "glx";
-vsync = true;
 mark-wmwin-focused = true;
+refresh-rate = 165;
+vsync=false;
 mark-ovredir-focused = true;
 detect-rounded-corners = true;
 detect-client-opacity = true;
-refresh-rate = 165;
 use-ewmh-active-win = true;
 detect-transient = true;
 detect-client-leader = true;

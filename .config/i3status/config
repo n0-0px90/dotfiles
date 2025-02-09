@@ -31,11 +31,11 @@ memory {
 }
 
 disk "/" {
-	format = "/: %total -> %avail (%used)"
+	format = "/: %total => %avail (%used)"
 }
 
 disk "/home/cameron/Games" {
-	format = "~/Games: %total -> %avail (%used)"
+	format = "~/Games: %total => %avail (%used)"
 }
 
 tztime local {
